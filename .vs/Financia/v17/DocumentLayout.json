@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\AMST5\\Financia\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\AMST5\\Financia\\Financia\\Migrations\\20240916170452_First Migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Financia\\Migrations\\20240916170452_First Migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEFD37E2-C02A-4615-A948-D5DD7F652E3A}|Financia\\Financia.csproj|C:\\AMST5\\Financia\\financia\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BEFD37E2-C02A-4615-A948-D5DD7F652E3A}|Financia\\Financia.csproj|solutionrelative:financia\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEFD37E2-C02A-4615-A948-D5DD7F652E3A}|Financia\\Financia.csproj|C:\\AMST5\\Financia\\financia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEFD37E2-C02A-4615-A948-D5DD7F652E3A}|Financia\\Financia.csproj|solutionrelative:financia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BEFD37E2-C02A-4615-A948-D5DD7F652E3A}|Financia\\Financia.csproj|c:\\amst5\\financia\\financia\\infraescture\\context\\applicationdatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BEFD37E2-C02A-4615-A948-D5DD7F652E3A}|Financia\\Financia.csproj|solutionrelative:financia\\infraescture\\context\\applicationdatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BEFD37E2-C02A-4615-A948-D5DD7F652E3A}|Financia\\Financia.csproj|c:\\amst5\\financia\\financia\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BEFD37E2-C02A-4615-A948-D5DD7F652E3A}|Financia\\Financia.csproj|C:\\AMST5\\Financia\\financia\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BEFD37E2-C02A-4615-A948-D5DD7F652E3A}|Financia\\Financia.csproj|solutionrelative:financia\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BEFD37E2-C02A-4615-A948-D5DD7F652E3A}|Financia\\Financia.csproj|c:\\amst5\\financia\\financia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEFD37E2-C02A-4615-A948-D5DD7F652E3A}|Financia\\Financia.csproj|solutionrelative:financia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BEFD37E2-C02A-4615-A948-D5DD7F652E3A}|Financia\\Financia.csproj|c:\\amst5\\financia\\financia\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{BEFD37E2-C02A-4615-A948-D5DD7F652E3A}|Financia\\Financia.csproj|solutionrelative:financia\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,6 +41,27 @@
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20240916170452_First Migration.cs",
+              "DocumentMoniker": "C:\\AMST5\\Financia\\Financia\\Migrations\\20240916170452_First Migration.cs",
+              "RelativeDocumentMoniker": "Financia\\Migrations\\20240916170452_First Migration.cs",
+              "ToolTip": "C:\\AMST5\\Financia\\Financia\\Migrations\\20240916170452_First Migration.cs",
+              "RelativeToolTip": "Financia\\Migrations\\20240916170452_First Migration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T17:04:52.548Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Program.cs",
@@ -44,40 +69,40 @@
               "RelativeDocumentMoniker": "Financia\\Program.cs",
               "ToolTip": "C:\\AMST5\\Financia\\Financia\\Program.cs",
               "RelativeToolTip": "Financia\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABTAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-16T16:35:17.457Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\AMST5\\Financia\\Financia\\appsettings.json",
               "RelativeDocumentMoniker": "Financia\\appsettings.json",
               "ToolTip": "C:\\AMST5\\Financia\\Financia\\appsettings.json",
               "RelativeToolTip": "Financia\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAyAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-09-16T16:32:32.669Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "ApplicationDataContext.cs",
               "DocumentMoniker": "C:\\AMST5\\Financia\\Financia\\Infraescture\\Context\\ApplicationDataContext.cs",
               "RelativeDocumentMoniker": "Financia\\Infraescture\\Context\\ApplicationDataContext.cs",
               "ToolTip": "C:\\AMST5\\Financia\\Financia\\Infraescture\\Context\\ApplicationDataContext.cs",
               "RelativeToolTip": "Financia\\Infraescture\\Context\\ApplicationDataContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAEAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAwAgAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-16T16:31:07.157Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\AMST5\\Financia\\Financia\\Models\\Category.cs",
               "RelativeDocumentMoniker": "Financia\\Models\\Category.cs",
@@ -85,8 +110,7 @@
               "RelativeToolTip": "Financia\\Models\\Category.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T16:28:34.074Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-16T16:28:34.074Z"
             }
           ]
         }
