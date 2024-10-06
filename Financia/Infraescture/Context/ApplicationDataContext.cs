@@ -12,5 +12,6 @@ namespace Financia.iNFRAESCTURE.Context
 
         }
         public DbSet<Category> Category { get; set; }
+        public DbSet<Account> Account { get; set; }
     }
 }
