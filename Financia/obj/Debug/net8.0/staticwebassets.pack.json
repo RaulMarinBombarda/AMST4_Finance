@@ -9,8 +9,152 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\RaulM\\OneDrive\\Área de Trabalho\\Financia\\Financia\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\RaulM\\OneDrive\\Área de Trabalho\\Financia\\Financia\\wwwroot\\css\\styles1.css",
+      "PackagePath": "staticwebassets\\css\\styles1.css"
+    },
+    {
+      "Id": "C:\\Users\\RaulM\\OneDrive\\Área de Trabalho\\Financia\\Financia\\wwwroot\\css\\styles2.css",
+      "PackagePath": "staticwebassets\\css\\styles2.css"
+    },
+    {
       "Id": "C:\\Users\\RaulM\\OneDrive\\Área de Trabalho\\Financia\\Financia\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\RaulM\\OneDrive\\Área de Trabalho\\Financia\\Financia\\wwwroot\\image\\AnyConv.com__fundoo.jpg",
+      "PackagePath": "staticwebassets\\image\\AnyConv.com__fundoo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RaulM\\OneDrive\\Área de Trabalho\\Financia\\Financia\\wwwroot\\image\\about.png",
+      "PackagePath": "staticwebassets\\image\\about.png"
+    },
+    {
+      "Id": "C:\\Users\\RaulM\\OneDrive\\Área de Trabalho\\Financia\\Financia\\wwwroot\\image\\background.png",
+      "PackagePath": "staticwebassets\\image\\background.png"
+    },
+    {
+      "Id": "C:\\Users\\RaulM\\OneDrive\\Área de Trabalho\\Financia\\Financia\\wwwroot\\image\\c1.png",
+      "PackagePath": "staticwebassets\\image\\c1.png"
+    },
+    {
+      "Id": "C:\\Users\\RaulM\\OneDrive\\Área de Trabalho\\Financia\\Financia\\wwwroot\\image\\c2.png",
+      "PackagePath": "staticwebassets\\image\\c2.png"
+    },
+    {
+      "Id": "C:\\Users\\RaulM\\OneDrive\\Área de Trabalho\\Financia\\Financia\\wwwroot\\image\\c3.png",
+      "PackagePath": "staticwebassets\\image\\c3.png"
+    },
+    {
+      "Id": "C:\\Users\\RaulM\\OneDrive\\Área de Trabalho\\Financia\\Financia\\wwwroot\\image\\card1.png",
+      "PackagePath": "staticwebassets\\image\\card1.png"
+    },
+    {
+      "Id": "C:\\Users\\RaulM\\OneDrive\\Área de Trabalho\\Financia\\Financia\\wwwroot\\image\\card2.png",
+      "PackagePath": "staticwebassets\\image\\card2.png"
+    },
+    {
+      "Id": "C:\\Users\\RaulM\\OneDrive\\Área de Trabalho\\Financia\\Financia\\wwwroot\\image\\card3.png",
+      "PackagePath": "staticwebassets\\image\\card3.png"
+    },
+    {
+      "Id": "C:\\Users\\RaulM\\OneDrive\\Área de Trabalho\\Financia\\Financia\\wwwroot\\image\\card4.png",
+      "PackagePath": "staticwebassets\\image\\card4.png"
+    },
+    {
+      "Id": "C:\\Users\\RaulM\\OneDrive\\Área de Trabalho\\Financia\\Financia\\wwwroot\\image\\card5.png",
+      "PackagePath": "staticwebassets\\image\\card5.png"
+    },
+    {
+      "Id": "C:\\Users\\RaulM\\OneDrive\\Área de Trabalho\\Financia\\Financia\\wwwroot\\image\\card6.png",
+      "PackagePath": "staticwebassets\\image\\card6.png"
+    },
+    {
+      "Id": "C:\\Users\\RaulM\\OneDrive\\Área de Trabalho\\Financia\\Financia\\wwwroot\\image\\card7.png",
+      "PackagePath": "staticwebassets\\image\\card7.png"
+    },
+    {
+      "Id": "C:\\Users\\RaulM\\OneDrive\\Área de Trabalho\\Financia\\Financia\\wwwroot\\image\\card8.png",
+      "PackagePath": "staticwebassets\\image\\card8.png"
+    },
+    {
+      "Id": "C:\\Users\\RaulM\\OneDrive\\Área de Trabalho\\Financia\\Financia\\wwwroot\\image\\ch.png",
+      "PackagePath": "staticwebassets\\image\\ch.png"
+    },
+    {
+      "Id": "C:\\Users\\RaulM\\OneDrive\\Área de Trabalho\\Financia\\Financia\\wwwroot\\image\\chair.png",
+      "PackagePath": "staticwebassets\\image\\chair.png"
+    },
+    {
+      "Id": "C:\\Users\\RaulM\\OneDrive\\Área de Trabalho\\Financia\\Financia\\wwwroot\\image\\facebook.png",
+      "PackagePath": "staticwebassets\\image\\facebook.png"
+    },
+    {
+      "Id": "C:\\Users\\RaulM\\OneDrive\\Área de Trabalho\\Financia\\Financia\\wwwroot\\image\\fi.jfif",
+      "PackagePath": "staticwebassets\\image\\fi.jfif"
+    },
+    {
+      "Id": "C:\\Users\\RaulM\\OneDrive\\Área de Trabalho\\Financia\\Financia\\wwwroot\\image\\finanzaaas.jpeg",
+      "PackagePath": "staticwebassets\\image\\finanzaaas.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\RaulM\\OneDrive\\Área de Trabalho\\Financia\\Financia\\wwwroot\\image\\google-plus.png",
+      "PackagePath": "staticwebassets\\image\\google-plus.png"
+    },
+    {
+      "Id": "C:\\Users\\RaulM\\OneDrive\\Área de Trabalho\\Financia\\Financia\\wwwroot\\image\\heart.png",
+      "PackagePath": "staticwebassets\\image\\heart.png"
+    },
+    {
+      "Id": "C:\\Users\\RaulM\\OneDrive\\Área de Trabalho\\Financia\\Financia\\wwwroot\\image\\logo.png",
+      "PackagePath": "staticwebassets\\image\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\RaulM\\OneDrive\\Área de Trabalho\\Financia\\Financia\\wwwroot\\image\\menu.png",
+      "PackagePath": "staticwebassets\\image\\menu.png"
+    },
+    {
+      "Id": "C:\\Users\\RaulM\\OneDrive\\Área de Trabalho\\Financia\\Financia\\wwwroot\\image\\nan.png",
+      "PackagePath": "staticwebassets\\image\\nan.png"
+    },
+    {
+      "Id": "C:\\Users\\RaulM\\OneDrive\\Área de Trabalho\\Financia\\Financia\\wwwroot\\image\\office.png",
+      "PackagePath": "staticwebassets\\image\\office.png"
+    },
+    {
+      "Id": "C:\\Users\\RaulM\\OneDrive\\Área de Trabalho\\Financia\\Financia\\wwwroot\\image\\search.png",
+      "PackagePath": "staticwebassets\\image\\search.png"
+    },
+    {
+      "Id": "C:\\Users\\RaulM\\OneDrive\\Área de Trabalho\\Financia\\Financia\\wwwroot\\image\\sf.png",
+      "PackagePath": "staticwebassets\\image\\sf.png"
+    },
+    {
+      "Id": "C:\\Users\\RaulM\\OneDrive\\Área de Trabalho\\Financia\\Financia\\wwwroot\\image\\shopping-cart.png",
+      "PackagePath": "staticwebassets\\image\\shopping-cart.png"
+    },
+    {
+      "Id": "C:\\Users\\RaulM\\OneDrive\\Área de Trabalho\\Financia\\Financia\\wwwroot\\image\\sofa.png",
+      "PackagePath": "staticwebassets\\image\\sofa.png"
+    },
+    {
+      "Id": "C:\\Users\\RaulM\\OneDrive\\Área de Trabalho\\Financia\\Financia\\wwwroot\\image\\table.png",
+      "PackagePath": "staticwebassets\\image\\table.png"
+    },
+    {
+      "Id": "C:\\Users\\RaulM\\OneDrive\\Área de Trabalho\\Financia\\Financia\\wwwroot\\image\\twitter.png",
+      "PackagePath": "staticwebassets\\image\\twitter.png"
+    },
+    {
+      "Id": "C:\\Users\\RaulM\\OneDrive\\Área de Trabalho\\Financia\\Financia\\wwwroot\\image\\work desk.png",
+      "PackagePath": "staticwebassets\\image\\work desk.png"
+    },
+    {
+      "Id": "C:\\Users\\RaulM\\OneDrive\\Área de Trabalho\\Financia\\Financia\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
     },
     {
       "Id": "C:\\Users\\RaulM\\OneDrive\\Área de Trabalho\\Financia\\Financia\\wwwroot\\js\\site.js",

@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\RaulM\\OneDrive\\\u00C1rea de Trabalho\\Financia\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BEFD37E2-C02A-4615-A948-D5DD7F652E3A}|Financia\\Financia.csproj|c:\\users\\raulm\\onedrive\\\u00E1rea de trabalho\\financia\\financia\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEFD37E2-C02A-4615-A948-D5DD7F652E3A}|Financia\\Financia.csproj|solutionrelative:financia\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEFD37E2-C02A-4615-A948-D5DD7F652E3A}|Financia\\Financia.csproj|c:\\users\\raulm\\onedrive\\\u00E1rea de trabalho\\financia\\financia\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEFD37E2-C02A-4615-A948-D5DD7F652E3A}|Financia\\Financia.csproj|solutionrelative:financia\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,6 +35,40 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\RaulM\\OneDrive\\\u00C1rea de Trabalho\\Financia\\Financia\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Financia\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\RaulM\\OneDrive\\\u00C1rea de Trabalho\\Financia\\Financia\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Financia\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAswH8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T13:20:46.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\RaulM\\OneDrive\\\u00C1rea de Trabalho\\Financia\\Financia\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Financia\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\RaulM\\OneDrive\\\u00C1rea de Trabalho\\Financia\\Financia\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Financia\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAswIcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T12:40:57.423Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Financia.Models;
 using Financia.iNFRAESCTURE.Context;
+using System.Security.Principal;
 
 namespace Financia.Controllers
 {
@@ -53,17 +54,24 @@ namespace Financia.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Nome,Description,CreatAt,IsActive")] Category category)
+        //[ValidateAntiForgeryToken]
+        //public async Task<IActionResult> Create([Bind("Id,Nome,Description,CreatAt,IsActive")] Category category)
+        //{
+        //    if (ModelState.IsValid)
+        //    {
+        //        category.Id = Guid.NewGuid();
+        //        _context.Add(category);
+        //        await _context.SaveChangesAsync();
+        //        return RedirectToAction(nameof(Index));
+        //    }
+        //    return View(category);
+        //}
+        public IActionResult Create(Category category)
         {
-            if (ModelState.IsValid)
-            {
-                category.Id = Guid.NewGuid();
-                _context.Add(category);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-            return View(category);
+            category.Id = Guid.NewGuid();
+            _context.Add(category);
+            _context.SaveChanges();
+            return RedirectToAction("Index");
         }
 
         // GET: Category/Edit/5
@@ -86,35 +94,42 @@ namespace Financia.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(Guid id, [Bind("Id,Nome,Description,CreatAt,IsActive")] Category category)
-        {
-            if (id != category.Id)
-            {
-                return NotFound();
-            }
+        //[ValidateAntiForgeryToken]
+        //public async Task<IActionResult> Edit(Guid id, [Bind("Id,Nome,Description,CreatAt,IsActive")] Category category)
+        //{
+        //    if (id != category.Id)
+        //    {
+        //        return NotFound();
+        //    }
 
-            if (ModelState.IsValid)
-            {
-                try
-                {
-                    _context.Update(category);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!CategoryExists(category.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
-            }
-            return View(category);
+        //    if (ModelState.IsValid)
+        //    {
+        //        try
+        //        {
+        //            _context.Update(category);
+        //            await _context.SaveChangesAsync();
+        //        }
+        //        catch (DbUpdateConcurrencyException)
+        //        {
+        //            if (!CategoryExists(category.Id))
+        //            {
+        //                return NotFound();
+        //            }
+        //            else
+        //            {
+        //                throw;
+        //            }
+        //        }
+        //        return RedirectToAction(nameof(Index));
+        //    }
+        //    return View(category);
+        //}
+
+        public IActionResult Edit(Category category)
+        {
+            _context.Update(category);
+            _context.SaveChanges();
+            return RedirectToAction("Index");
         }
 
         // GET: Category/Delete/5

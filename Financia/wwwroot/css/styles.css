@@ -1,0 +1,575 @@
+﻿
+body {
+    background-image: linear-gradient(#000000, #080011);
+}
+
+.text-container {
+    width: 40%;
+    padding: 20px;
+    color: white;
+}
+
+.graph-container {
+    width: 60%;
+    height: 80%; /* Define a altura do gráfico em relação à altura da janela */
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: left;
+    color: white;
+}
+
+
+
+#myChart {
+    width: 100% !important; /* Define a largura do gráfico */
+    height: 100% !important; /* Define a altura do gráfico */
+}
+/*
+body::before{
+content: '';
+position: absolute;
+top:0;
+left: 0;
+height: 100%;
+width:  10%; 
+background: linear-gradient(#0b75cc, #3d0606);
+clip-path: circle(19% at  65% 30%);
+
+}
+/*body::after{
+content: '';
+position: absolute;
+top:0;
+left: 0;
+height: 80%;
+width:  10%; 
+background: linear-gradient(#0b75cc, #fafafa);
+clip-path: circle(15% at  15% 30%);
+}
+/* navbar top */
+.navbar-top {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.social-link i img {
+    margin-left: 10px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+    .social-link i img:hover {
+        background-color: rgb(231, 208, 238);
+        border-radius: 50px;
+    }
+
+@media screen and (max-width:420px) {
+    .social-link i img {
+        width: 20px;
+    }
+}
+
+.logo h3 {
+    font-weight: bold;
+}
+
+@media screen and (max-width:420px) {
+    .logo h3 {
+        font-size: 20px;
+    }
+}
+
+.icons i img {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:420px) {
+    .icons i img {
+        width: 20px;
+    }
+}
+/* navbar top */
+
+/* main content */
+.main-content {
+    width: 100%;
+    height: 90vh;
+    backdrop-filter: blur(15px);
+    background-image: linear-gradient(#082357, #157694);
+    background-size: cover;
+    background-position: 70%;
+}
+
+/* navbar */
+#navbar-color {
+    background-color: rgb(18, 93, 155);
+}
+
+.navbar-nav {
+    margin: auto;
+}
+
+.nav-link {
+    margin-left: 30px;
+    font-weight: bold;
+    color: rgb(233, 228, 228);
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+    .nav-link:hover {
+        color: rgb(0, 124, 128);
+    }
+/* navbar */
+
+/* content */
+.content {
+    margin-top: 150px;
+    margin-left: 60px;
+    color: #fff;
+}
+
+    .content h1 {
+        font-size: 50px;
+        color: #fff;
+    }
+
+#btn1 button {
+    width: 150px;
+    height: 32px;
+    background: transparent;
+    border: 1px solid rgb(245, 245, 245);
+    letter-spacing: 3px;
+    font-weight: bold;
+    transition: 0.5s ease;
+    cursor: pointer;
+    color: antiquewhite;
+}
+
+    #btn1 button:hover {
+        background-color: rgba(124, 16, 128, 0.836);
+    }
+
+@media screen and (max-width:420px) {
+    .content h1 {
+        font-size: 30px;
+        color: white;
+    }
+}
+/* content */
+
+/* main content */
+.card {
+    color: black;
+}
+/* card1 */
+#btn2 button {
+    width: 100px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+    #btn2 button:hover {
+        background-color: rgba(238,224,208);
+    }
+/* card1 */
+
+/* card2 */
+#tpc {
+    box-shadow: 0 0 5px black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+    #tpc:hover {
+        transform: translateY(-10px);
+    }
+/* card2 */
+
+/* card3 */
+#c p {
+    font-weight: bold;
+}
+
+#btn3 {
+    text-align: center;
+}
+
+    #btn3 button {
+        width: 150px;
+        height: 30px;
+        background: transparent;
+        border: 1px solid black;
+        transition: 0.5s ease;
+        cursor: pointer;
+    }
+
+        #btn3 button:hover {
+            background-color: rgba(238,224,208);
+        }
+
+@media screen and (max-width:895px) {
+    #btn3 button {
+        width: 100px;
+    }
+}
+/* card3 */
+#btn4 button {
+    width: 150px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+    #btn4 button:hover {
+        background-color: rgba(238,224,208);
+    }
+/* footer */
+#footer {
+    width: 100%;
+    background-color: black;
+    margin-top: 100px;
+}
+
+    #footer h1 {
+        color: white;
+        padding-top: 30px;
+    }
+
+    #footer p {
+        color: white;
+    }
+
+.icons i {
+    color: rgba(238,224,208);
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.copyright {
+    color: white;
+    margin-top: 20px;
+}
+
+.credite {
+    color: white;
+}
+/* footer */
+.star {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 4px;
+    height: 4px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.1), 0 0 0 8px rgba(255, 255, 255, 0.1), 0 0 20px rgba(255, 255, 255, 0.1);
+    animation: animate 3s linear infinite;
+}
+
+    .star::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 300px;
+        height: 1px;
+        background: linear-gradient(90deg, #2326c9, transparent);
+    }
+
+@keyframes animate {
+    0% {
+        transform: rotate(315deg) translateX(0);
+        opacity: 1;
+    }
+
+    70% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: rotate(315deg) translateX(-1000px);
+        opacity: 0;
+    }
+}
+
+.containeer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Adicione essa classe ao seu container */
+.container {
+    position: relative;
+    overflow: hidden;
+    color: white;
+}
+
+    /* Adicione essas estrelas ao seu container */
+    .container::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+
+    .container::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+
+.star:nth-child(1) {
+    top: 0;
+    right: 0;
+    left: initial;
+    animation-delay: 0s;
+    animation-duration: 1s;
+}
+
+.star:nth-child(2) {
+    top: 0;
+    right: 100px;
+    left: initial;
+    animation-delay: 0.2s;
+    animation-duration: 3s;
+}
+
+.star:nth-child(3) {
+    top: 0;
+    right: 220px;
+    left: initial;
+    animation-delay: 2.75s;
+    animation-duration: 2.75s;
+}
+
+.star:nth-child(4) {
+    top: 0;
+    right: -220px;
+    left: initial;
+    animation-delay: 1.6s;
+    animation-duration: 1.6s;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 13rem;
+    overflow: hidden;
+    height: 3rem;
+    background-size: 300% 300%;
+    cursor: pointer;
+    text-align: center;
+    backdrop-filter: blur(1rem);
+    border-radius: 5rem;
+    transition: 0.5s;
+    animation: gradient_301 5s ease infinite;
+    border: double 4px transparent;
+    background-image: linear-gradient(#212121, #212121), linear-gradient( 137.48deg, #ffdb3b 10%, #fe53bb 45%, #8f51ea 67%, #0044ff 87% );
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+#container-stars {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transition: 0.5s;
+    backdrop-filter: blur(1rem);
+    border-radius: 5rem;
+}
+
+strong {
+    z-index: 2;
+    font-family: "Avalors Personal Use";
+    font-size: 12px;
+    letter-spacing: 5px;
+    color: #ffffff;
+    text-shadow: 0 0 4px white;
+}
+
+#glow {
+    position: absolute;
+    display: flex;
+    width: 12rem;
+}
+
+.circle {
+    width: 100%;
+    height: 30px;
+    filter: blur(2rem);
+    animation: pulse_3011 4s infinite;
+    z-index: -1;
+}
+
+    .circle:nth-of-type(1) {
+        background: rgba(254, 83, 186, 0.636);
+    }
+
+    .circle:nth-of-type(2) {
+        background: rgba(142, 81, 234, 0.704);
+    }
+
+.btn:hover #container-stars {
+    z-index: 1;
+    background-color: #212121;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.btn:active {
+    border: double 4px #fe53bb;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    animation: none;
+}
+
+    .btn:active .circle {
+        background: #fe53bb;
+    }
+
+#stars {
+    position: relative;
+    background: transparent;
+    width: 200rem;
+    height: 200rem;
+}
+
+    #stars::after {
+        content: "";
+        position: absolute;
+        top: -10rem;
+        left: -100rem;
+        width: 100%;
+        height: 100%;
+        animation: animStarRotate 90s linear infinite;
+    }
+
+    #stars::after {
+        background-image: radial-gradient(#ffffff 1px, transparent 1%);
+        background-size: 50px 50px;
+    }
+
+    #stars::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -50%;
+        width: 170%;
+        height: 500%;
+        animation: animStar 60s linear infinite;
+    }
+
+    #stars::before {
+        background-image: radial-gradient(#ffffff 1px, transparent 1%);
+        background-size: 50px 50px;
+        opacity: 0.5;
+    }
+
+@keyframes animStar {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(-135rem);
+    }
+}
+
+@keyframes animStarRotate {
+    from {
+        transform: rotate(360deg);
+    }
+
+    to {
+        transform: rotate(0);
+    }
+}
+
+@keyframes gradient_301 {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes pulse_3011 {
+    0% {
+        transform: scale(0.75);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+    }
+
+    100% {
+        transform: scale(0.75);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+}
+
+.comic-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #ffffff;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+    .comic-button:hover {
+        background-color: #ffffff;
+        color: #ffffff;
+        border: 2px solid #ffffff;
+        box-shadow: 5px 5px 0px rgb(18, 93, 155);
+    }
+
+    .comic-button:active {
+        background-color: #ffffff;
+        box-shadow: none;
+        transform: translateY(4px);
+    }
+
+
+
