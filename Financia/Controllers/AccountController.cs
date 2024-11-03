@@ -22,7 +22,9 @@ namespace Financia.Controllers
         // GET: Account
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Account.ToListAsync());
+            var account = await _context.Account.Include(a => a.Category).ToListAsync();            
+          
+            return View(account);
         }
 
         // GET: Account/Details/5
@@ -79,6 +81,8 @@ namespace Financia.Controllers
         // GET: Account/Edit/5
         public async Task<IActionResult> Edit(Guid? id)
         {
+            ViewBag.CategoryList = new SelectList(_context.Category, "Id", "Nome");
+
             if (id == null)
             {
                 return NotFound();
@@ -96,35 +100,42 @@ namespace Financia.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(Guid id, [Bind("Id,Nome,Description,Price,CreatedAt,DueDate,IsActive")] Account account)
-        {
-            if (id != account.Id)
-            {
-                return NotFound();
-            }
+        //[ValidateAntiForgeryToken]
+        //public async Task<IActionResult> Edit(Guid id, [Bind("Id,Nome,Description,Price,CreatedAt,DueDate,IsActive")] Account account)
+        //{
+        //    if (id != account.Id)
+        //    {
+        //        return NotFound();
+        //    }
 
-            if (ModelState.IsValid)
-            {
-                try
-                {
-                    _context.Update(account);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!AccountExists(account.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
-            }
-            return View(account);
+        //    if (ModelState.IsValid)
+        //    {
+        //        try
+        //        {
+        //            _context.Update(account);
+        //            await _context.SaveChangesAsync();
+        //        }
+        //        catch (DbUpdateConcurrencyException)
+        //        {
+        //            if (!AccountExists(account.Id))
+        //            {
+        //                return NotFound();
+        //            }
+        //            else
+        //            {
+        //                throw;
+        //            }
+        //        }
+        //        return RedirectToAction(nameof(Index));
+        //    }
+        //    return View(account);
+        //}
+
+        public IActionResult Edit(Account account)
+        {
+            _context.Update(account);
+            _context.SaveChanges();
+            return RedirectToAction("Index");
         }
 
         // GET: Account/Delete/5

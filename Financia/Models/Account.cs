@@ -11,6 +11,5 @@
         public bool IsActive { get; set; }
         public Guid CategoryId { get; set; }
         public virtual Category Category { get; set; }
-        // apaguei a migração pq tava quebrando tudo xddd
     }
 }

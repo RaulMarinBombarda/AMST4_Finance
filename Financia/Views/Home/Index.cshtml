@@ -1,8 +1,273 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture</title>
+    <link rel="stylesheet" href="~/css/styles.css">
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+    <!-- bootstrap link -->
+    <!-- icons -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!-- icons -->
+
+
+</head>
+<body>
+    <!-- navbar top -->
+
+
+
+
+    <div class="containeer">
+        <div class="text-container">
+            <h1>Domine Suas Finanças Como um Verdadeiro Chef!</h1>
+            <p>Descubra como nossos serviços de controle financeiro podem transformar suas contas em um banquete de prosperidade. Com atenção aos detalhes, segurança e um toque de empreendedorismo, você terá tudo ao seu alcance!</p>
+
+            <button class="comic-button"><a asp-area="" asp-controller="Home" asp-action="Privacy">Saiba mais</a></button>
+
+        </div>
+        <div class="graph-container">
+            <canvas id="myChart"></canvas>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        const ctx = document.getElementById('myChart').getContext('2d');
+        new Chart(ctx, {
+          type: 'bar',
+          data: {
+                labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+            datasets: [{
+              label: 'Ganho mensal',
+                    data: [10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120],
+              backgroundColor: 'rgba(255, 255, 255, 255)',
+                    borderColor: 'rgba(0, 28, 248, 0.8)',
+              borderWidth: 1
+
+            }]
+          },
+          options: {
+            scales: {
+              y: {
+                beginAtZero: true
+              }
+            }
+          }
+        });
+    </script>
+    <!-- main content -->
+    <!-- card1 -->
+    <div class="container" style="margin-top: 10%;">
+
+        <h3 class="text-center" style="padding-top: 30px;">SERVICES WE OFFER</h3>
+
+        <div class="container">
+            <!-- Seu conteúdo aqui -->
+            <div class="row" style="margin-top: 50px;">
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="./image/AnyConv.com__fundoo.jpg" alt="" class="card image-top" height="200px">
+                        <div class="card-body">
+                            <h5 class="card-titel text-center">CUSTOM MENUS</h5>
+                            <p class="text-center">Investir ajuda a alcançar diversos objetivos financeiros, sejam eles de curto, médio ou longo prazo. Pode ser a compra de uma casa, a educação dos filhos, ou mesmo uma viagem dos sonhos. Ao investir, você pode direcionar recursos específicos para esses objetivos, utilizando diferentes tipos de investimentos.  </p>
+
+
+                                <div id="glow">
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="./image/finanzaaas.jpeg" alt="" class="card image-top" height="200px">
+                        <div class="card-body">
+                            <h5 class="card-titel text-center">SMARTEST WAY</h5>
+                            <p class="text-center">A inflação é a perda do poder de compra do dinheiro ao longo do tempo. Se você deixar seu dinheiro parado, ele tende a perder valor. Investir em ativos que superem a inflação, como ações ou títulos de longo prazo, pode proteger seu capital. </p>
+
+
+
+                            <div id="glow">
+                                <div class="circle"></div>
+                                <div class="circle"></div>
+                            </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="./image/nan.png" alt="" class="card image-top" height="200px">
+                        <div class="card-body">
+                            <h5 class="card-titel text-center">USER FRIENDLEY</h5>
+                            <p class="text-center"> Antes de investir em alguma, certifique-se de compreender todos os fatores que podem afetar o seu preço, já que esse processo é mais complexo.</p>
+
+
+
+                            <div id="glow">
+                                <div class="circle"></div>
+                                <div class="circle"></div>
+                            </div>
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+        </div>
+    </div>
+
+
+    <hr>
+
+    <hr>
+    <!-- card3 -->
+    <!-- about -->
+    <div class="container">
+        <h1 class="text-center" style="margin-top: 50px;">O que é um investimento financeiro?</h1>
+        <div class="row" style="margin-top: 50px;">
+            <div class="col-md-6 py-3 py-md-0">
+                <p>Investimento financeiro é quando você aplica dinheiro em um título ou ativo, esperando algum retorno por meio da valorização do papel adquirido, ou do acréscimo de juros na hora de resgatar o valor. Em termos mais simples, é uma forma de fazer o dinheiro render.</p>
+                <div id="btn4"><button>Read More...</button></div>
+            </div>
+            <div class="col-md-6 py-3 py-md-0">
+                <iframe src="https://www.google.com/maps/embed?pb=..." width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- about -->
+    <!-- footer -->
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-body-tertiary text-muted">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <!-- Left -->
+            <!-- Left -->
+            <!-- Right -->
+            <div>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-google"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+        <!-- Section: Links  -->
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <i class="fas fa-gem me-3"></i>AMS Finance 2024
+                        </h6>
+                        <p>
+                            Here you can use rows and columns to organize your footer content. Lorem ipsum
+                            dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Products
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Cripto Moeda</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Empreéstimo</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Cambio</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Consultoria</a>
+                        </p>
+
+                        <br>
+
+                    </div>
+                    <!-- Grid column -->
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Useful links
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Pricing</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Settings</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Orders</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Help</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                        <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+                        <p>
+                            <i class="fas fa-envelope me-3"></i>
+                            AMS_Company@example.com
+                        </p>
+                        <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+                        <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+
+
+    </footer>
+    <!-- Footer -->
+    <!-- footer -->
+
+
+
+
+</body>
